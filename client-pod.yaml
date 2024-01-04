@@ -6,7 +6,7 @@ metadata:
   name: client-pod
 spec:
   containers:
-    - image: stephengrider/multi-client
+    - image: stephengrider/multi-worker
       name: client
       ports:
         - containerPort: 3000
